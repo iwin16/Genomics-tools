@@ -1,6 +1,11 @@
 python script to remove redundant sequences in a fastq file.
-Library reuiremennts: Biopython (pip install Biopython or conda install Biopython)
-download: git clone git@github.com:iwin16/uniqseq.git
 
-
-usage: python uniqseq.py -i input.fastq -o output.fastq
+download and use: 
+1) git clone git@github.com:iwin16/uniqseq.git
+2) cd uniseq
+3) prequisite:  Biopython (pip install Biopython)
+4) usage: python uniqseq.py -t n -i input.fastq -o output.fastq
+-t num of threads defalut 1
+-i input fasta
+-o output fasta
+-h help
