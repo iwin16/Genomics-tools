@@ -7,6 +7,9 @@ download and use:
 4) usage: python uniqseq.py -t n -i input.fastq -o output.fastq
 
 -t num of threads defalut 1
+
 -i input fasta
+
 -o output fasta
+
 -h help
