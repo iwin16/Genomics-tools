@@ -5,6 +5,7 @@ download and use:
 2) cd uniseq
 3) prequisite:  Biopython (pip install Biopython)
 4) usage: python uniqseq.py -t n -i input.fastq -o output.fastq
+
 -t num of threads defalut 1
 -i input fasta
 -o output fasta
